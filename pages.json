@@ -1,0 +1,52 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	    ,{
+            "path" : "pages/mkdir/mkdir",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/cover/cover",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/note/add",
+            "style" : {}
+        }
+		,{
+		    "path" : "pages/note/text",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/note/article",
+		    "style" : {}
+		},
+		{
+		    "path" : "pages/note/read",
+		    "style" : {}
+		}
+        ,{
+            "path" : "pages/login/login",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/share/share",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "笔记本",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
